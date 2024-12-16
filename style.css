@@ -8,6 +8,12 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
@@ -18,6 +24,7 @@
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 900;
 }
 
 .hero p {
@@ -27,6 +34,17 @@
 
 .nav {
     color: #E5E7EB;
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    gap: 12px;
+}
+
+.nav ul li {
+   list-style: none;
+   text-decoration: none;
 }
 
 button {
@@ -35,4 +53,5 @@ button {
     text-align: center;
     padding: 6px 32px;
     border-radius: 8px;
+    border: none;
 }
