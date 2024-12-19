@@ -80,7 +80,7 @@ main {
     gap: 2em;
 }
 
-button {
+.heroBtn {
     background-color: #3882F6;
     color: white;
     padding: 12px 38px;
@@ -152,7 +152,7 @@ button {
     font-style: italic;
     font-weight: light;
     line-height: 1.5;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .articleDetails {
@@ -169,3 +169,60 @@ button {
     font-weight: bold;
     text-align: right;
 }
+
+.formSignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882F6;
+    max-width: 800px;
+    padding: 2rem 4rem;
+    margin: 4rem;
+    border-radius: 4px;
+    gap: 2rem;
+}
+
+.formSignup h4 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.formSignup p {
+    font-size: 16px;
+}
+
+.formSignup .formBtn {
+    border: 2px solid #fff;
+    background-color: #3882F6;
+    font-size: 8px;
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cards {
+      flex-direction: column;
+    }
+  
+    .articleDetails {
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .formSignup {
+      flex-direction: column;
+    }
+  } */
+  
